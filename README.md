@@ -1,7 +1,7 @@
 # My custom zsh theme
 Pretty much OMZ default theme `robbyrussell.zsh-theme` with combination of zsh default theme. <br>
 
-Here is my theme
+Here is the snippet my theme
 ```bash
 PROMPT="%K{blue}%n@%m%k %{$fg_bold[green]%}%159<...<%~ $(git_prompt_info)
 %(?:%{$fg_bold[green]%}%1{➜%} :%{$fg_bold[red]%}%1{✗%} )%{$fg[cyan]%}%{$reset_color%} %# "
